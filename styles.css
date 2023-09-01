@@ -27,7 +27,7 @@ p{
 }
 
 hr{
-    border: dotted #EAF6F6 6px;
+    border: dotted #00fcfc 6px;
     border-bottom: none;
     width: 4%;
     margin: 100px auto;
@@ -46,6 +46,7 @@ a:hover{
 
 .navigation-bar{
     background-color: #66bfbf;
+    padding: 0;
 }
 
 .nav-link{
@@ -117,6 +118,7 @@ a:hover{
 .contact-me{
     margin-bottom: 50px;
     margin-top: 50px;
+    background-color: white;
 }
 
 .contact-me-text{
@@ -157,3 +159,24 @@ a:hover{
     padding: 20px 0 20px;
     margin: 0;
   }
+
+.caro{
+    height: auto;
+    margin-top: 25px;
+    padding-bottom: 100px;
+}
+
+.Images{
+    width: 75%;
+    height: 120%;
+}
+
+.carousel-control-prev-icon, .carousel-control-next-icon {
+    height: 7%;
+    width: 17%;
+    outline: black;
+    background-color: rgba(0, 0, 0, 0.3);
+    background-size: 100%, 100%;
+    border-radius: 50%;
+    border: 1px solid black;
+}
